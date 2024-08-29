@@ -1,0 +1,124 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+%%%%%%%%%%%%% MODERNCV %%%%%%%%%%%%%
+\moderncvstyle{casual}
+\moderncvcolor{green}
+\nopagenumbers{}
+\renewcommand*{\namefont}{\fontsize{20}{24}\mdseries\upshape}
+
+%%%%%%%%%%%%% IMPORTS %%%%%%%%%%%%%
+\usepackage[scale=0.84,top=1.0cm]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+%%%%%%%%%%%%% COLORS %%%%%%%%%%%%%
+% hbrs:         {0.02745, 0.61569, 0.87059}
+% max planck:   {0, 0.47059, 0.42353}
+% frauenhofer:  {0.0902, 0.61176, 0.4902}
+% biontech:     {0.23529, 0.58824, 0.45098}
+% dhl:          {0.83137, 0.01961, 0.06667}
+% deepl:        {0.05882, 0.16863, 0.27451}
+% dzne:         {0, 0.35686, 0.61569}
+% adesso:       {0, 0.43137, 0.78039}
+% bayer:        {0, 0.73725, 1}
+% leanix:       {0.08627, 0.41961, 1}
+% ibm:          {0, 0.38431, 1}
+% amazon:       {0.2, 0.2902, 0.40784}
+% check point:  {0.83922, 0.10196, 0.41176}
+% wix:          {0,0,0}
+
+\definecolor{color0}{rgb}{0,0,0}                        % text color
+\definecolor{color1}{rgb}{0,0,0}    % check point
+\definecolor{color2}{rgb}{0.3,0.3,0.3}                  % footer color
+
+%%%%%%%%%%%%% METADATA %%%%%%%%%%%%%
+\firstname{Paul}
+\familyname{Brenker}
+%\title{Curriculum Vitae}
+\address{Maxstr. 28}{53111 Bonn}
+\mobile{+49 173 5287524}
+\email{paul.brenker@gmail.com}
+\extrainfo{\faLinkedin{ \href{https://www.linkedin.com/in/paul-brenker}{linkedin.com/in/paul-brenker}  \textbullet  }\\{   } 
+            \faGithub{ \href{https://www.github.com/paulbrenker}{github.com/paulbrenker}}}
+%\photo[50pt][0.4pt]{Bewerbungsphoto(10.2022).png}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\makecvtitle
+\vspace*{-12mm}
+
+%    \cvitem{Date of birth:}{09/05/1996}   
+%    \cvitem{Place of birth:}{Berlin}
+
+\begin{multicols}{2}
+
+\end{multicols}
+
+\section{Education}
+    \cventry{Since 10/2019}{B.Sc Computer Science}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{Current grade average: \textbf{1,7}}{Specialisation: \textbf{Bioinformatics}}{}
+    \cventry{2015 - 2019}{B.A. History and Culture of the Middle East}{Freie Universität zu Berlin}{Grade average: \textbf{2,0}}{Specialisation: \textbf{Semitic Linguistics}}{}
+    \cventry{2008 - 2014}{Abitur}{Katholische Schule Liebfrauen Berlin}{}{Art \& German advanced classes}{}
+
+\section{Professional}
+    \cventry{8/2023 - current}{SAP LeanIX, Bonn}{Working Student Software Engineering}{}{}{\newline{}
+    \begin{itemize}
+        \item Working student from 11/2023 ongoing: 
+        \begin{itemize}
+            \item Integration of \textit{API Evaluation Tools} in the existing architechture
+            \item Working as member of an \textit{Agile Software Development Team}.
+        \end{itemize}
+        \item Student internship project 08/2023 -  10/2023: 
+        \begin{itemize}
+            \item \textit{Investigation of linting tools to evaluate APIs of microservices}
+        \end{itemize}
+    \end{itemize}}
+    \cventry{2021 - 2023}{Bonn University Institute for Philosophy}{Student assistant}{}{}{\newline{}
+    \begin{itemize}
+        \item System \& Website administrator
+        \item maintainance of faculty computer network
+    \end{itemize}}
+    \cventry{2017 - 2018}{Berlin Brandenburgische Akademie der Wissenschaften - Corpus Coranicum}{Student assistant}{}{}{\newline{}
+    \begin{itemize}
+        \item Database and website maintenance
+        \item Transcription of Hebrew and Arabic texts
+    \end{itemize}}
+    \cventry{2014 - 2015}{Kibbutz Ein Hashlosha, Israel}{Volunteer}{}{}{\newline{}
+    \begin{itemize}
+        \item Agriculture and landscaping
+    \end{itemize}}
+    \cventry{2014 - 2020}{Cinnamon GmbH Hospitality \& Promotion, Berlin}{Host, Service}{}{}{{\newline{}
+    \begin{itemize}
+        \item Team leader for events and conferences.
+    \end{itemize}}}
+
+\section{Skills}
+\subsection{Technical}
+        \cvlistdoubleitem{Java}          {Webdevelopment}
+        \cvlistdoubleitem{Python}        {Linux}
+        \cvlistdoubleitem{Databases}     {REST APIs}
+        \cvlistdoubleitem{Data analysis} {NodeJS}
+
+\subsection{Languages}
+    \cvlistdoubleitem{German - mother tongue}             {Hebrew - limited working proficiency}
+    \cvlistdoubleitem{English - full working proficiency} {Arabic - basic knowledge}
+    
+
+\section{Scholarships}
+    \cventry{2023 - 2024}{Deutschlandstipendium}{awarded for academic excellence}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{Bonn, Germany}{}
+    \cventry{2018 - 2019}{German Academic Exchange Service (DAAD)}{Semester scholarship Arabic language exchange in Jordan}{German Jordanian University}{Amman Jordan}{}
+    \cventry{2018}{PROMOS}{Scholarship for a summer-school}{Ben Gurion University of the Negev}{Be'er Sheva, Israel}{}
+
+    
+\begin{multicols}{2}
+    \section{Professional Interests}
+        Software Engineering, Digital Humanities,\\
+        Data Analysis, Computational Linguistics, 
+\columnbreak
+    \section{Miscellaneous}
+        Diving license (B, BE)   
+    %\section{Hobbies}
+    %    Rowing (national league), photography,\\ 
+    %    travelling, hiking, cycling, swimming
+\end{multicols}
+\end{document}

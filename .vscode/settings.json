@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "latex-workshop.latex.outDir": "./out",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.docker.enabled": true,
+  "latex-workshop.docker.image.latex": "ghcr.io/xu-cheng/texlive-full",
+  "latex-workshop.latex.recipe.default": "latexmk",
+  "ltex.language": "en-US",
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2
+}
