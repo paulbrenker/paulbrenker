@@ -16,4 +16,4 @@
 }
 
 
-\usepackage{modernsimplecv}
+\usepackage{style/modernsimplecv}
