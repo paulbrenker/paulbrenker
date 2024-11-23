@@ -1,5 +1,7 @@
-# Welcome
+# Welcome!
 
-I am a Computer Science Student based in Bonn, Germany studying at the [H-BRS](https://www.h-brs.de/de).
+I'm a Computer Science graduate from Bonn, Germany, where I studied at the [H-BRS](https://www.h-brs.de/de).
 
-In the past year I was able to gain experience as a working student at [SAP LeanIX](https://www.leanix.net/de/).
+Over the past year, I gained valuable experience as a working student in software engineering at [SAP LeanIX](https://www.leanix.net/de/), honing my skills in collaborative software development.
+
+I'm passionate about building software that delivers real value to customers and I thrive on teamwork and innovation.

@@ -43,7 +43,7 @@
 
 
 
-\tikz[remember picture,overlay] {%
+\tikz[remember picture, overlay] {%
     \node[rectangle, fill=white, anchor=north, minimum width=\paperwidth, minimum height=5cm](header) at (current page.north){};%
 }
 
@@ -62,27 +62,24 @@
             {\par\centering\huge{Paul Brenker}} \\[0.3cm]
             \faGlobe~ Nationality: German\\
             \faBirthdayCake~ 1996 \\
-            \faMapMarker~ Bonn, Germany \\
+            \faMapMarker~ Tel Aviv, Israel \\
             \begin{spacing}{0.5}
-                {\small
-                    \faCommentsO~ \underline{Languages:}
-
-                    \begin{itemize}
-                        \item \emph{German} mother tongue
-                        \item \emph{English} full working proficiency
-                        \item \emph{Hebrew} limited working proficiency
-                        \item \emph{Arabic} basic knowledge
-                    \end{itemize}
+                {
+                    \faCommentsO~ \underline{Languages:} \\
+                    \begin{tabular}{l l}
+                        \emph{German:} native & \emph{English:} full working proficiency \\
+                        \emph{Hebrew:} intermediate proficiency & \emph{Arabic:} basic knowledge \\
+                    \end{tabular}
                 }
             \end{spacing}
             \vspace{4pt} % Trick for alignment
         \end{minipage}\hfill
-        \begin{minipage}[t]{0.46\textwidth}
+        \begin{minipage}[t]{0.36\textwidth}
             \vspace{29pt} % Trick for alignment
             \faPhone~ +49 173 5287524 \\
             \faAt~ \protect\url{paul.brenker@gmail.com} \\
 
-            \faEnvelopeO~ Maxstr. 28, 53111 Bonn \\
+           % \faEnvelopeO~ Maxstr. 28, 53111 Bonn \\
 
             %\aiAcademiaSquare 
             \faGithub~ \protect\url{github.com/paulbrenker} \\
@@ -115,29 +112,32 @@
 
     \begin{minipage}[t]{\leftcolwidth}
         \begin{tabular}{r| p{0.6\textwidth} c}
-            \cvevent{8/2023 - current}{SAP LeanIX}{Working Student}{Bonn, Germany}{integrated OpenAPI Specification evaluation tools for continuous integration pipelines. Contributed to the LeanIX EAM product as part of an agile engineering team. Learned to work with numerous technologies used in microservice architectures}{img/leanix_logo.jpg} \\
-
-            \cvevent{2022-2023}{University of Bonn }{Student assistant}{Bonn, Germany}{Administration and maintenance of institute for philosophy websites and IT equipment.}{img/uni_bonn_logo.jpg}                                                                                                                                                       \\
-
-            \cvevent{2017-2018}{Academy of Sciences and Humanities}{Student Assistant}{Berlin, Germany}{Transcription of ancient Hebrew and Arabic texts. XML annotation of academic text for cross-referenced usage in a database. Proofreading of articles.}{img/bbaw_logo.jpg}
+            \cvevent{2023 - 2024}{SAP LeanIX}{Working Student}{Bonn, Germany}{Contributed to the LeanIX EAM product as part of an agile engineering team. Learned to work with numerous technologies used in microservice architectures. Developed core functionalities of new collaboration features in the LeanIX Product.}{img/leanix_logo.jpg}
+            \\
+            \cvevent{2023}{LeanIX}{Intern}{Bonn, Germany}{Investigated and implemented evaluation tools for OpenAPI specifications. Developed a prototype for company-wide integration of using GitHub Actions}{img/leanix_logo_old.jpg}
+            \\
+            \cvevent{2022 - 2023}{University of Bonn}{Student assistant}{Bonn, Germany}{Administration and maintenance of institute for philosophy websites and IT equipment.}{img/uni_bonn_logo.jpg}
+            \\
+            \cvevent{2017 - 2018}{Academy of Sciences and Humanities}{Student Assistant}{Berlin, Germany}{Transcription of ancient Hebrew and Arabic texts. XML annotation of academic text for cross-referenced usage in a database. Proofreading of articles.}{img/bbaw_logo.jpg}
         \end{tabular}
 
-        \vspace{4em}
+        \bigskip
 
         \begin{minipage}[t]{\leftcolwidth}
             \section*{Skills}
-            \begin{tabular}{l l}
-                \textbf{Java, Kotlin}  & \textbf{Spring Boot}, Vaadin   \\
-                NodeJS                 & Nest                           \\
-                Docker                 & \textbf{REST APIs}, GraphQL    \\
-                \textbf{Linux}         & PostgreSQL                     \\
-                Git                    & Agile Methodologies            \\
-                Angular                & LaTeX                          \\
-                \textbf{Python}        & Data Analysis \& Visualization \\
-                Basic machine learning & Clustering                     \\
+            {\normalsize
+            \begin{tabular}{l l l}
+                \textbf{Programming} & \textbf{Frameworks} & \textbf{Other} \\
+                \emph{Java} & \emph{Spring Boot} & Functional Programming\\
+                \emph{Kotlin} & \emph{Vaadin} & Agile Methodologies \\
+                \emph{NodeJS} & \emph{Angular} & \emph{REST APIs} \\
+                \emph{Python} & GitHub Actions & CI/CD Pipelines \\
+                LaTeX & PostgreSQL & Databases \\
+                & & Git, Linux, Docker \\
+                & & Data Analysis \& Visualization \\ 
+                & & Machine learning \\
             \end{tabular}
-            \bigskip
-
+            }
         \end{minipage}\hfill
 
 
@@ -150,17 +150,17 @@
         \section*{Education}
 
         \begin{tabular}{r| p{0.6\textwidth} c}
-            \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.Sc Computer Science}{Bonn, Germany}{Finishing Computer Science degree in November 2024 with very good grades throughout the whole program. Specialized in Bioinformatics and Data Science. Thesis topic: Relevance of OpenAPI Linter Rules for Specification Quality.}{img/hbrs_logo.jpg} \\
+            \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.Sc Computer Science}{Bonn, Germany}{Computer Science degree with a final grade of 1.6 (90 \%). Specialized in Bioinformatics and Data Science where I did multiple applied projects. For my Thesis I chose the Topic: Relevance of OpenAPI Linter Rules for Specification Quality.}{img/hbrs_logo.jpg} \\
 
             \cvevent{2015 - 2019}{Freie Universität zu Berlin}{B.A. History and Culture of the Middle East}{Berlin, Germany}{Language centered degree with long time abroad language courses in Egypt, Israel and Jordan. Thesis was written about gender-specific variations in the Arabic dialect of Amman, Jordan}{img/fu_logo.png}                                                \\
         \end{tabular}
 
     \end{minipage}
 
-    \vspace{3em}
+    \bigskip
 
     \begin{minipage}[t]{\leftcolwidth}
-        \section*{Awards}
+        \section*{Scholarships}
         \begin{tabular}{>{\small\bfseries}r >{\small}p{0.70\textwidth}}
             2023 & Deutschlandstipendium -  Scholarship for ambitious and talented students                                                  \\
             2018 & Scholarship for a full Semester of intensive Arabic language courses at the German Jordanian University in Amman, Jordan. \\
@@ -175,14 +175,14 @@
     \begin{minipage}[t]{\rightcolwidth}
         \section*{Volunteering}
         \begin{tabular}{>{\small\bfseries}r >{\small}p{0.7\textwidth}}
-            2014 & After graduating high school I volunteered for nine months in Kibbutz Ein Hashlosha in Israel. During my time I worked mostly in agriculture and landscaping but also in the local garage where I helped maintaining the tractors of the Kibbutz. \\
+            2014 & After graduating from high school I volunteered for nine months in Kibbutz Ein Hashlosha in Israel. During my time I worked mostly in agriculture and landscaping but also in the local garage where I helped to maintain the vehicles of the Kibbutz. \\
         \end{tabular}
         \bigskip
 
         \section*{Hobbies}
         \begin{tabular}{>{\small\bfseries}r >{\small}p{0.7\textwidth}}
-            Rowing  & I row since I am ten years old and participated in countless competitions including the german national sprint league. \\
-            Cooking & My great passion is to cook. My favorite cuisines are Mediterranean and Asian.
+            Rowing  & I row since I am ten years old and participated in countless competitions including the German national sprint league. \\
+            Cycling & I love to ride bicycles not just for sport but also in the everyday for a sustainable and balanced life.
         \end{tabular}
     \end{minipage}
 
@@ -204,8 +204,12 @@
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\textwidth}
     \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-        {\small Paul Brenker \icon{\faEnvelopeO}{black}{} Maxstr. 28 \icon{\faMapMarker}{black}{} 53111 Bonn \icon{\faPhone}{black}{} +4901735287525
-            \icon{\faAt}{black}{} \protect\url{paul.brenker@gmail.com}
+        {\small Paul Brenker 
+        %\icon{\faEnvelopeO}{black}{} Maxstr. 28 
+        \icon{\faMapMarker}{black}{} Tel Aviv 
+        \icon{\faPhone}{black}{} +972 52 3002843
+        \icon{\faPhone}{black}{} +49 173 5287524
+        \icon{\faAt}{black}{} \protect\url{paulbrenker@gmail.com}
         }
     \end{center}
 \end{minipage}
