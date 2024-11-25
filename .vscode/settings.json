@@ -5,6 +5,12 @@
   "latex-workshop.docker.enabled": true,
   "latex-workshop.docker.image.latex": "ghcr.io/xu-cheng/texlive-full",
   "latex-workshop.latex.recipe.default": "latexmk",
+  "latex-workshop.message.latexlog.exclude": [
+    "Overfull \\\\hbox",
+    "Overfull \\\\vbox",
+    "Underfull \\\\hbox",
+    "Underfull \\\\vbox"
+  ],
   "ltex.language": "en-US",
   "editor.wordWrap": "on",
   "editor.tabSize": 2
