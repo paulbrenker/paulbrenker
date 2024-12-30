@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{modernsimplecv}[2019/09/18 A Modern Simple CV]
+\ProvidesClass{style/modernsimplecv}[2019/09/18 A Modern Simple CV]
 
 \LoadClass[]{article}
 \RequirePackage{xcolor}
