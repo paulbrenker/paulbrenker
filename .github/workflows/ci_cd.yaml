@@ -60,5 +60,4 @@ jobs:
         with:
           tag_name: v2.${{ github.run_number }}
           name: "Release v0.${{ github.run_number }}"
-          files: |
-            paulbrenker.pdf
+          files: paulbrenker.pdf
