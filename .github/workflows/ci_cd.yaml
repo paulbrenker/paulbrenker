@@ -50,10 +50,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: CV
-          path: ./paulbrenker
-
-      - name: Move PDF to root
-        run: mv ./paulbrenker/* ./paulbrenker.pdf
 
       - name: Create Release
         id: create_release
