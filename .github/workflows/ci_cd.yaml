@@ -24,13 +24,15 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: *.tex
+          root_file: |
+            *.tex
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Documents
-          path: *.pdf
+          path: |
+            *.pdf
 
   release:
     name: Release
@@ -59,4 +61,5 @@ jobs:
         with:
           tag_name: v2.${{ github.run_number }}
           name: "Release v0.${{ github.run_number }}"
-          files: *.pdf
+          files: |
+            *.pdf
