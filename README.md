@@ -6,4 +6,4 @@ Over the past year, I gained valuable experience as a working student in softwar
 
 I'm passionate about building software that delivers real value to customers and I thrive on teamwork and innovation.
 
-If you are interested in reading my CV you can find the most recent version in the releases [here](https://github.com/paulbrenker/paulbrenker/releases).
+If you are interested in reading my CV you can find the most recent version in the releases [here](https://github.com/paulbrenker/paulbrenker/releases/latest). I am also maintaining a personal blog under [pbrenk.com](https://pbrenk.com).
