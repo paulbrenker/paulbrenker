@@ -1,9 +1,13 @@
 ## out dir
 
 out/**
+scripts/**
 
 cover*
 oldcv.tex
+prospective*
+spider*
+
 
 
 ## Core latex/pdflatex auxiliary files:

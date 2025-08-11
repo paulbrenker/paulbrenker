@@ -25,32 +25,32 @@
 \tikz[remember picture, overlay] {%
     \node[rectangle, fill=white, anchor=north, minimum width=\paperwidth, minimum height=5cm](header) at (current page.north){};
 }
-\begin{minipage}[t]{0.21\textwidth}
+\begin{minipage}[t]{0.183\textwidth}
     \vspace{0pt}
-    %\includegraphics[width=\textwidth]{img/paul.png}\hspace{1em}
+    \includegraphics[width=\textwidth]{img/paul.png}\hspace{1em}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{1\textwidth}
+\begin{minipage}[t]{0.79\textwidth}
     \vspace{0pt}
     \begin{shaded*}
-        \begin{minipage}[t]{0.47\textwidth}
+        \begin{minipage}[t]{0.44\textwidth}
             \vspace{0pt}
             {\par\centering\huge{Paul Brenker}} \\[0.3cm]
-            \faGlobe~ Nationality: German, Work Visa Israel B1 (from September)\\
+            \faGlobe~ Nationality: German, Work Visa Israel B1\\
             \faBirthdayCake~ 1996 \\
             \faMapMarker~ Tel Aviv, Israel \\
             \begin{spacing}{0.5}
                 {
                     \faCommentsO~ \underline{Languages:} \\
                     \begin{tabular}{l l}
-                        \emph{German:} native & \emph{English:} full working proficiency \\
+                        \emph{German:} native & \emph{English:} full proficiency \\
                         \emph{Hebrew:} advanced proficiency & \emph{Arabic:} basic knowledge \\ 
                     \end{tabular}
                 }
             \end{spacing}
             \vspace{4pt}
         \end{minipage}\hfill
-        \begin{minipage}[t]{0.36\textwidth}
+        \begin{minipage}[t]{0.39\textwidth}
             \vspace{29pt} 
             \faPhone~ +972 52 3002843 \\
             \faPhone~ +49 173 5287524 \\
@@ -62,15 +62,18 @@
         \end{minipage}
         \hfill
     \end{shaded*}
-\end{minipage}\\[15pt]
-\subsection*{}
-\vspace{-3em}
+\end{minipage}\\
+\bigskip
+\begin{minipage}{0.99\textwidth}
+\section*{Summary}
+    I am a \textbf{Computer Science} aspiring Software Engineer with a great passion for deeply technical topics. I recently moved to Germany to Israel where I am looking for a full-time position as Engineer. \lorem\lorem\lorem\lorem
+\end{minipage}
+
 \setlength{\columnsep}{1.7cm}
 \columnratio{0.47}[0.46]
 \begin{paracol}{2}
     \hbadness5000
     \paracolbackgroundoptions
-    %\small
     \section*{Experience}
     \begin{minipage}[t]{\leftcolwidth}
         \begin{tabular}{p{0.18\textwidth}| p{0.65\textwidth}}
@@ -83,31 +86,24 @@
         \begin{minipage}[t]{\leftcolwidth}
             \section*{Skills}
             {\normalsize
-            \begin{tabular}{l l l}
-                \textbf{Programming} & \textbf{Frameworks} & \textbf{Other} \\
-                \emph{Java} & \emph{Spring Boot} & Functional Programming\\
-                \emph{Kotlin} & \emph{Java Persistence API} & Agile Methodologies \\
-                \emph{NodeJS} & \emph{Angular} & \emph{REST APIs} \\
-                \emph{Python} & GitHub Actions & CI/CD Pipelines \\
-                LaTeX & PostgreSQL & Databases \\
-                & & Version Control with Git \\
-                & & Linux \\
-                & & Containerized Applications \\
-                & & Data Analysis \& Visualization \\ 
-                & & Machine learning \\
+
+            \begin{tabular}{>{\bfseries}p{0.25\textwidth} >{}p{0.61\textwidth}}
+                \textbf{Programming}  & \textbf{Java}, \textbf{Kotlin}, Python, NodeJS (Typescript) \\
+                \textbf{Frameworks} & \textbf{Spring Boot}, \textbf{Angular}, JPA, GitHub Actions, PostgreSQL \\
+                \textbf{Technologies} & \textbf{REST APIs}, CI/CD, Databases, Git, Linux, AWS (certified), Containers, Data Analysis, Machine Learning, LaTeX\\
+                \textbf{Methodologies} & Agile, Scrum, Functional Programming \\
             \end{tabular}
             }
-            % \vspace{0.5em}
-            % \includegraphics[width=\linewidth]{scripts/skills_wordcloud.png}
 
         \end{minipage}\hfill
     \end{minipage}
     \switchcolumn
+    \bigskip
     \begin{minipage}[t]{\rightcolwidth}
         \section*{Education}
         \begin{tabular}{p{0.18\textwidth}| p{0.65\textwidth}}
-            \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.S. Computer Science}{Bonn, Germany}{Computer Science degree with a final grade of 1.6 GPA (90 \%) within the best 10 \% of faculty graduates. Specialized in Bioinformatics and Data Science where I did multiple applied projects. For my Thesis I chose the topic: Relevance of OpenAPI Linter Rules for Specification Quality.}{img/hbrs_logo.jpg} \\
-            \cvevent{2015 - 2019}{Freie Universität zu Berlin}{B.A. History and Culture of the Middle East}{Berlin, Germany}{Language centered degree with long time abroad language courses in Egypt, Israel and Jordan. Thesis was written about gender-specific variations in the Arabic dialect of Amman, Jordan}{img/fu_logo.png} \\
+            \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.Sc. Computer Science}{Bonn, Germany}{Computer Science degree with a final grade of 1.6 GPA (90 \%) within the best 10 \% of faculty graduates. Specialized in Bioinformatics and Data Science where I did multiple applied projects. For my Thesis I chose the topic: Relevance of OpenAPI Linter Rules for Specification Quality.}{img/hbrs_logo.jpg} \\
+            \cvevent{2015 - 2019}{Freie Universität zu Berlin}{B.A. Linguistics}{Berlin, Germany}{Focused on Middle Eastern languages including Hebrew, Arabic, Amharic and Aramaic. Abroad stays in Egypt, Israel and Jordan. Thesis was written about gender-specific variations in the Arabic dialect of Amman, Jordan}{img/fu_logo.png} \\
         \end{tabular}
     \bigskip
     \begin{minipage}[t]{\rightcolwidth}
@@ -120,11 +116,11 @@
     \end{minipage}\hfill
     \bigskip
     \begin{minipage}[t]{\rightcolwidth}
-        \section*{Volunteering}
-        \begin{tabular}{>{\bfseries}p{0.12\textwidth} >{}p{0.7\textwidth}}
-            2014 & After graduating from high school I volunteered for nine months in Kibbutz Ein Hashlosha in Israel. During my time I worked mostly in agriculture and landscaping but also in the local garage where I helped to maintain the vehicles of the Kibbutz. \\
-        \end{tabular}
-        \bigskip
+        % \section*{Volunteering}
+        % \begin{tabular}{>{\bfseries}p{0.12\textwidth} >{}p{0.7\textwidth}}
+        %     2014 & After graduating from high school I volunteered for nine months in Kibbutz Ein Hashlosha in Israel. During my time I worked mostly in agriculture and landscaping but also in the local garage where I helped to maintain the vehicles of the Kibbutz. \\
+        % \end{tabular}
+        % \bigskip
         \section*{Hobbies}
         \begin{tabular}{>{\bfseries}p{0.12\textwidth} >{}p{0.7\textwidth}}
             Rowing  & I row since I am ten years old and participated in countless competitions including the German national sprint league. \\
