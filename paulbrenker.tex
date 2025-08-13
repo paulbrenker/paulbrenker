@@ -25,12 +25,12 @@
 \tikz[remember picture, overlay] {%
     \node[rectangle, fill=white, anchor=north, minimum width=\paperwidth, minimum height=5cm](header) at (current page.north){};
 }
-\begin{minipage}[t]{0.183\textwidth}
-    \vspace{0pt}
-    \includegraphics[width=\textwidth]{img/paul.png}\hspace{1em}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.79\textwidth}
+% \begin{minipage}[t]{0.183\textwidth}
+%     \vspace{0pt}
+%     \includegraphics[width=\textwidth]{img/paul.png}\hspace{1em}
+% \end{minipage}
+% \hfill
+\begin{minipage}[t]{0.99\textwidth} % else 80 %
     \vspace{0pt}
     \begin{shaded*}
         \begin{minipage}[t]{0.44\textwidth}
@@ -66,7 +66,8 @@
 \bigskip
 \begin{minipage}{0.99\textwidth}
 \section*{Summary}
-    I am a \textbf{Computer Science} aspiring Software Engineer with a great passion for deeply technical topics. I recently moved to Germany to Israel where I am looking for a full-time position as Engineer. \lorem\lorem\lorem\lorem
+    I am a \textbf{Computer Science} graduate Software Engineer with a great passion for deeply technical topics. Recently I moved to Israel from Germany seeking for a full-time position. I come with valuable experience in a thriving Software Company where I had the chance to learn and grow rapidly as the product scaled from thousands to hundreds of thousands of users.\\
+    Now I am excited to start a position to take on responsibility and to really make a difference. I am eager to navigate new challenges and to work in a fast-paced environment where things get done.
 \end{minipage}
 
 \setlength{\columnsep}{1.7cm}
@@ -77,10 +78,10 @@
     \section*{Experience}
     \begin{minipage}[t]{\leftcolwidth}
         \begin{tabular}{p{0.18\textwidth}| p{0.65\textwidth}}
-            \cvevent{2023 - 2024}{SAP LeanIX}{Working Student}{Bonn, Germany}{Contributed to the LeanIX EAM product as part of an agile engineering team. Learned to work with numerous technologies used in microservice architectures. Developed Backend REST Endpoints of the new Decisions feature in LeanIX EAM. Built cursor based pagination in combination with dynamical filtering using the Spring Boot and JPA for multiple backend microservices.}{img/leanix_logo.jpg}\\
+            \cvevent{2023 - 2024}{SAP LeanIX}{Software Engineer - Student Position}{Bonn, Germany}{Contributed to the LeanIX EAM product as part of an agile engineering team. Learned to work with numerous technologies used in microservice architectures. Developed Backend REST Endpoints of the new Decisions feature in LeanIX EAM. Built cursor based pagination in combination with dynamical filtering using the Spring Boot and JPA for multiple backend microservices.}{img/leanix_logo.jpg}\\
             \cvevent{2023}{LeanIX}{Intern}{Bonn, Germany}{Investigated and implemented evaluation tools for OpenAPI specifications. Developed a prototype for company-wide integration pipeline using GitHub Actions}{img/leanix_logo_old.jpg}\\
-            \cvevent{2022 - 2023}{University of Bonn}{Student assistant}{Bonn, Germany}{Administration and maintenance of institute for philosophy websites and IT equipment.}{img/uni_bonn_logo.png}\\
-            \cvevent{2017 - 2018}{Academy of Sciences and Humanities}{Student Assistant}{Berlin, Germany}{Transcription of ancient Hebrew and Arabic texts. XML annotation of academic text for cross-referenced usage in a database. Proofreading of articles.}{img/bbaw_logo.jpg}
+            \cvevent{2022 - 2023}{University of Bonn}{IT Support Student Assistant}{Bonn, Germany}{Administration and maintenance of institute for philosophy websites and IT hardware such as network devices, printers and personal computers.}{img/uni_bonn_logo.png}\\
+            % \cvevent{2017 - 2018}{Academy of Sciences and Humanities}{Student Assistant}{Berlin, Germany}{Transcription of ancient Hebrew and Arabic texts. XML annotation of academic text for cross-referenced usage in a database. Proofreading of articles.}{img/bbaw_logo.jpg}
         \end{tabular}
         \bigskip
         \begin{minipage}[t]{\leftcolwidth}
@@ -88,11 +89,37 @@
             {\normalsize
 
             \begin{tabular}{>{\bfseries}p{0.25\textwidth} >{}p{0.61\textwidth}}
-                \textbf{Programming}  & \textbf{Java}, \textbf{Kotlin}, Python, NodeJS (Typescript) \\
-                \textbf{Frameworks} & \textbf{Spring Boot}, \textbf{Angular}, JPA, GitHub Actions, PostgreSQL \\
-                \textbf{Technologies} & \textbf{REST APIs}, CI/CD, Databases, Git, Linux, AWS (certified), Containers, Data Analysis, Machine Learning, LaTeX\\
-                \textbf{Methodologies} & Functional Programming, Agile, Scrum, Microservices\\
-            \end{tabular}
+                \textbf{Programming}  & 
+                    \textbf{Python}, 
+                    \textbf{NodeJS (Typescript)},
+                    \textbf{Java},
+                    Kotlin,\\
+                \textbf{Frameworks} & 
+                    \textbf{Selenium},
+                    \textbf{Spring Boot}, 
+                    \textbf{Angular},
+                    OpenAPI,
+                    JPA,
+                    GitHub Actions, 
+                    PostgreSQL\\
+                \textbf{Technologies} & 
+                    \textbf{AWS (certified)},
+                    \textbf{Linux Server \& Desktop},
+                    \textbf{REST APIs},  
+                    Databases, 
+                    Git, 
+                    Containers, 
+                    Data Analysis, 
+                    Machine Learning, 
+                    LaTeX\\
+                \textbf{Methodologies} & 
+                    \textbf{Technical Documentation},
+                    \textbf{TDD},
+                    \textbf{CI/CD},
+                    %Functional Programming, 
+                    Agile, 
+                    Microservices\\
+            \end{tabular} 
             }
 
         \end{minipage}\hfill
@@ -109,7 +136,7 @@
     \begin{minipage}[t]{\rightcolwidth}
         \section*{Scholarships}
         \begin{tabular}{>{\bfseries}p{0.12\textwidth} >{}p{0.7\textwidth}}
-            2023 & Deutschlandstipendium -  Scholarship for ambitious and talented students                                                  \\
+            2023 & Deutschlandstipendium - Scholarship for ambitious and talented students                                                  \\
             2018 & Scholarship for a full Semester of intensive Arabic language courses at the German Jordanian University in Amman, Jordan. \\
             2018 & PROMOS -  Scholarship for an intensive Hebrew summer school at the Ben Gurion University of the Negev                     \\
         \end{tabular}
@@ -131,9 +158,6 @@
 \end{paracol}
 
 %\vfill{} % Whitespace before final footer
-%----------------------------------------------------------------------------------------
-%	FINAL FOOTER
-%----------------------------------------------------------------------------------------
 % \setlength{\parindent}{0pt}
 % \begin{minipage}[t]{\textwidth}
 %     \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
