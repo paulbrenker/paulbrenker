@@ -6,8 +6,7 @@
 \usepackage{setspace}
 \usepackage{wallpaper}
 \usepackage{mdframed}
-
-
+\usepackage{enumitem}
 
 \newlength{\rightcolwidth}
 \newlength{\leftcolwidth}
@@ -80,9 +79,32 @@
     \section*{Experience}
     \begin{minipage}[t]{\leftcolwidth}
         \begin{tabular}{p{0.18\textwidth}| p{0.65\textwidth}}
-            \cvevent{2023 - 2024}{SAP LeanIX}{Software Engineer - Student Position}{Bonn, Germany}{Contributed to the LeanIX EAM product as part of an agile engineering team. Learned to work with numerous technologies used in microservice architectures. Developed Backend REST Endpoints of the new Decisions feature in LeanIX EAM. Built cursor based pagination in combination with dynamical filtering using the Spring Boot and JPA for multiple backend microservices.}{img/leanix_logo.jpg}\\
-            \cvevent{2023}{LeanIX}{Intern}{Bonn, Germany}{Investigated and implemented evaluation tools for OpenAPI specifications. Developed a prototype for company-wide integration pipeline using GitHub Actions}{img/leanix_logo_old.jpg}\\
-            \cvevent{2022 - 2023}{University of Bonn}{IT Support Student Assistant}{Bonn, Germany}{Administration and maintenance of institute for philosophy websites and IT hardware such as network devices, printers and personal computers.}{img/uni_bonn_logo.png}\\
+            \cvevent{2023 - 2024}{SAP LeanIX}{Software Engineer - Student Position}{Bonn, Germany}{
+                \vspace{-.4cm}
+                \begin{itemize}[leftmargin=.3cm]    
+                    \item Contributed to the LeanIX core product as part of an agile engineering team.
+                    \item Learned to work with numerous technologies used in microservice architectures.
+                    \item Designed Backend REST Service for the Architecture Decisions feature in LeanIX.
+                    \item Built cursor based pagination in combination with dynamical filtering using the Spring Boot and JPA for multiple backend microservices.   
+                \end{itemize}}
+                {img/leanix_logo.jpg}\\
+
+            \cvevent{2023}{LeanIX}{Intern}{Bonn, Germany}{
+                \vspace{-.4cm}
+                \begin{itemize}[leftmargin=.3cm]
+                    \item Investigated and implemented evaluation tools for OpenAPI specifications.
+                    \item Developed a prototype for a company-wide integration pipeline using GitHub Actions.
+                \end{itemize}}
+                {img/leanix_logo_old.jpg}\\
+
+            \cvevent{2022 - 2023}{University of Bonn}{IT Support Student Assistant}{Bonn, Germany}{
+                \vspace{-.4cm}
+                \begin{itemize}[leftmargin=.3cm]
+                    \item Administration of institute for philosophy websites.
+                    \item Maintenance and Acquisition of IT hardware such as network devices, printers and personal computers.
+                \end{itemize}}
+                {img/uni_bonn_logo.png}\\
+
             % \cvevent{2017 - 2018}{Academy of Sciences and Humanities}{Student Assistant}{Berlin, Germany}{Transcription of ancient Hebrew and Arabic texts. XML annotation of academic text for cross-referenced usage in a database. Proofreading of articles.}{img/bbaw_logo.jpg}
         \end{tabular}
         \bigskip
@@ -110,7 +132,7 @@
                     \textbf{REST APIs},  
                     Databases, 
                     Git, 
-                    Containers, 
+                    Docker, 
                     Data Analysis, 
                     Machine Learning, 
                     LaTeX\\
@@ -131,8 +153,23 @@
     \begin{minipage}[t]{\rightcolwidth}
         \section*{Education}
         \begin{tabular}{p{0.18\textwidth}| p{0.65\textwidth}}
-            \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.Sc. Computer Science}{Bonn, Germany}{Computer Science degree with a final grade of 1.6 GPA (90 \%) within the best 10 \% of faculty graduates. Specialized in Bioinformatics and Data Science where I did multiple applied projects. For my Thesis I chose the topic: Relevance of OpenAPI Linter Rules for Specification Quality.}{img/hbrs_logo.jpg} \\
-            \cvevent{2015 - 2019}{Freie Universität zu Berlin}{B.A. Linguistics}{Berlin, Germany}{Focused on Middle Eastern languages including Hebrew, Arabic, Amharic and Aramaic. Abroad stays in Egypt, Israel and Jordan. Thesis was written about gender-specific variations in the Arabic dialect of Amman, Jordan}{img/fu_logo.png} \\
+            \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.S. Computer Science}{Bonn, Germany}{
+                \vspace{-.4cm}
+                \begin{itemize}[leftmargin=.3cm]
+                    \item Computer Science degree with a final grade of 1.6 GPA (90 \%) within the best 10 \% of faculty graduates.
+                    \item Specialized in Bioinformatics and Data Science where I did multiple applied projects.
+                    \item For my Thesis I chose the topic: Relevance of OpenAPI Linter Rules for Specification Quality. 
+                \end{itemize}}
+                {img/hbrs_logo.jpg} \\
+                
+            \cvevent{2015 - 2019}{Freie Universität zu Berlin}{B.A. Linguistics}{Berlin, Germany}{
+                \vspace{-.4cm}
+                \begin{itemize}[leftmargin=.3cm]
+                    \item Focused on Middle Eastern languages including Hebrew, Arabic, Amharic and Aramaic.
+                    \item Abroad stays in Egypt, Israel and Jordan.
+                    \item Thesis was written about gender-specific variations in the Arabic dialect of Amman, Jordan. 
+                \end{itemize}}
+                {img/fu_logo.png} \\
         \end{tabular}
     \bigskip
     \begin{minipage}[t]{\rightcolwidth}
