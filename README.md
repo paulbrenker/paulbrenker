@@ -1,9 +1,15 @@
 # Welcome!
 
-I'm a Computer Science graduate from Bonn, Germany, where I studied at the [H-BRS](https://www.h-brs.de/de).
+Hey There, I am Paul a Java / Kotlin and Python Software Engineer.
 
-I gained valuable experience as a working student in software engineering at [SAP LeanIX](https://www.leanix.net/de/), honing my skills in collaborative software development.
+:earth_africa: Based in Tel Aviv, Israel
 
-I'm passionate about building software that delivers real value to customers and I thrive on teamwork and innovation.
+:globe_with_meridians: Experienced in developing complex web applications
 
-If you are interested in reading my CV you can find the most recent version in the releases [here](https://github.com/paulbrenker/paulbrenker/releases/latest). I am also maintaining a personal blog under [pbrenk.com](https://www.pbrenk.com).
+:sparkles: Passionate about building the future with AI
+
+:mortar_board: Graduated Computer Science Program at H-BRS Bonn, Germany
+
+:page_facing_up: Find my CV [here](https://github.com/paulbrenker/paulbrenker/releases/latest)
+
+:email: contact me [paul.brenker@gmail.com](mailto:paul.brenker@gmail.com)
