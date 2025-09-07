@@ -1,14 +1,12 @@
 \documentclass{style/modernsimplecv}
 \usepackage[utf8]{inputenc}
-\usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm, margin=1cm, a4paper]{geometry}
+\usepackage[top=1cm, bottom=0cm, left=1cm, right=1cm, a4paper]{geometry}
 \usepackage[sfdefault]{AlegreyaSans}
 \usepackage{beuron}
 \usepackage{setspace}
 \usepackage{wallpaper}
 \usepackage{mdframed}
 \usepackage{enumitem}
-
-
 
 \title{Curriculum Vitae}
 \author{Paul Brenker}
@@ -47,13 +45,11 @@
         \end{minipage}\hfill
         \begin{minipage}[t]{0.50\textwidth}
             \vspace{25pt} 
-            \faCommentsO~ {Languages:} \\
+            \faCommentsO~ {Languages:}\\
             \begin{tabular}{l l}
-                \textbf{German:} native & \textbf{English:} full proficiency \\
-                \textbf{Hebrew:} advanced proficiency & \textbf{Arabic:} basic knowledge \\ 
+                \textbf{$\cdot$ German:} native & \textbf{$\cdot$ English:} full proficiency\\
+                \textbf{$\cdot$ Hebrew:} advanced proficiency & \textbf{$\cdot$ Arabic:} basic knowledge\\
             \end{tabular}
-
-
         \end{minipage}
         \hfill
     \end{shaded*}
@@ -62,7 +58,7 @@
 \vspace{-3em}
 \begin{minipage}{0.99\textwidth}
 \section*{Summary}
-    \textbf{Backend Software Engineer} with a strong \textbf{Computer Science} background focussed on \textbf{Java Virtual Machine} based Projects. I have valuable experience working for a company that scaled a product from thousands to hundreds of thousands of users working across the \textbf{whole web development stack}. Known for my analytical mindset, persistence, and ability to thrive under pressure I am looking for a dynamic environment that will support my professional growth and technical excellence.
+    \textbf{Full Stack Software Engineer} with a strong \textbf{Computer Science} background. I am experienced working across all layers of the \textbf{modern web development stack} in a Unicorn valuated Scale-up Company. Known for my analytical mindset, persistence, and ability to excel under pressure I seek a dynamic environment to further my professional growth and technical excellence.
 \end{minipage}
 \bigskip
 
@@ -71,22 +67,20 @@
     \section*{Experience}
     \begin{tabular}{p{5.2em}| p{0.85\textwidth}}
         \cvevent{2023 - 2024}{SAP LeanIX}{Software Engineer - Student Position}{Bonn, Germany}{
-                \item Extended the features of \textbf{key services in the SAP LeanIX} infrastructure.
-                \item Worked in an engineering team with a \textbf{heavy focus on collaboration}.
+                \item Supported the implementation of one of the \textbf{first agentic AI solutions} within the SAP LeanIX product and introduced a qualitative way to test the resulting AI responses, ensuring \textbf{95\% BERT score precision} with an extensive test suite.
+                \item Extended the features of \textbf{key services in the SAP LeanIX} microservice infrastructure.
+                \item Worked in an engineering team with a \textbf{strong emphasis on collaboration} utilizing \textbf{Pair Programming} to achieve higher quality outcomes.
+                \item Built \textbf{RESTful APIs} with \textbf{advanced database queries} leveraging the \textbf{JPA Specification API} enabling dynamic filtering and cursor based pagination for seamless infinite scrolling, improving initial backend performance by up to 70\%.
                 % \item Built backend REST service for the Architecture Decisions feature (\href{https://app.leanix.net/openapi-explorer?urls.primaryName=Documents}{Documents Service}).
-                \item Supported the implementation of one of the \textbf{first agentic AI solution} within the SAP LeanIX product and introduced a qualitative way to test the resulting AI responses verifying 95\% precision.
-                \item \textbf{Improved performance of existing backend services by up to 70\%} on large result sets, implementing cursor based pagination in combination with dynamical filtering using the Java Persistence API.
                 %\item See a private demo of applied technology stack and coding practices in my own web applications: \href{}{trailmenu}, \href{}{trailmenu-frontend}
                 }
             {img/leanix_logo.jpg}\\
-
         \cvevent{2023}{LeanIX}{Intern}{Bonn, Germany}{
                 \item \textbf{Evaluated API linting tools for the services in the LeanIX infrastructure}. For that I compared different tools, evaluated pros and cons, and implemented a full set of rules validating compliance to company's REST guidelines.
             }
             {img/leanix_logo_old.jpg}\\
-
         \cvevent{2021 - 2023}{University of Bonn}{IT Support Student Assistant}{Bonn, Germany}{
-                \item Maintenance and Acquisition of IT \textbf{hardware and software} such as network devices, printers and personal computers.
+                \item Maintenance and acquisition of IT \textbf{hardware and software} such as network devices, printers and personal computers.
             }
             {img/uni_bonn_logo.png}\\
 
@@ -105,57 +99,72 @@
     \section*{Skills}
     \begin{tabular}{p{5.2em}| p{0.85\textwidth}}
         \cvskills{Cloud}{
-            \textbf{AWS (currently studying for Certified Developer Associate)}, 
-            Azure, Kubernetes, \textbf{Docker}}\\
-        %\cvskills{Containers}{Docker}\\
+            \textbf{AWS} (preparing for Certified Developer Associate), Azure}\\
+        \cvskills{Deployment}{\textbf{Docker}, Kubernetes with EKS Serverless Fargate}\\
         \cvskills{CI/CD}{\textbf{GitHub Actions}, Jenkins}\\
-        \cvskills{VC}{Git (\textbf{GitHub}, GitLab)}\\
-        \cvskills{OS}{\textbf{Linux} Server \& Desktop}\\
-        \cvskills{Observability}{
-            IBM Instana, 
-            Grafana}\\
+        \cvskills{Versioning}{Git, \textbf{GitHub}, GitLab}\\
+        \cvskills{OS}{\textbf{Linux} (Server \& Desktop)}\\
+        \cvskills{Observability}{Grafana}\\
+        %\cvskills{AI-Tools}{\textbf{ChatGPT}, Mistral, \textbf{GitHub Copilot}, LangChain, BERT, Azure OpenAI SDK}\\
         \cvskills{Languages}{
-            \textbf{Java \& Kotlin} for Backend,
-            \textbf{Typescript} for Frontend,
-            \textbf{Python} for Data Science}\\
+            \textbf{Java \& Kotlin} (Backend),
+            \textbf{JavaScript/TypeScript} (Frontend \& Backend),
+            \textbf{Python} (Data Science \& AI)},
+            Rust\\
         \cvskills{Frameworks}{
-            \textbf{Spring Boot} including \textbf{Spring Security} and \textbf{Spring Data JPA}, 
-            \textbf{REST APIs} with OpenAPI,
+            \textbf{Spring Boot} (Spring Security, Spring Data, JPA, Hibernate), 
+            \textbf{NestJS} (TypeORM),
+            \textbf{RESTful APIs} (OpenAPI),
             \textbf{Angular}}\\
-        \cvskills{Testing}{JUnit5, MockK, Jest, Selenium}\\
+        \cvskills{Testing}{
+            %\textbf{Testing with REST clients (Postman, Insomnia)},
+            JUnit5, 
+            MockK,
+            Pytest,
+            Pylint,
+            Jest, 
+            ESLint, 
+            \textbf{Selenium}, 
+            \textbf{Spectral REST API Linter}}\\ 
         %\cvskills{Libraries}{Numpy, Pandas, SkLearn}\\
         \cvskills{Databases}{
+            \textbf{Relational and NoSQL Databases},
             \textbf{PostgreSQL}, 
-            Oracle}\\
+            Oracle, 
+            \textbf{MongoDB}},
+            \textbf{ORMs}\\
         \cvskills{Data Science}{
             Statistical Methods, 
             Natural Language Processing, 
             \textbf{Machine Learning}}\\
         \cvskills{Methods}{
-            \textbf{Technical Documentation}, 
+            \textbf{Software Documentation}, 
+            \textbf{Clean Code Principles},
+            Agile,
+            Event Driven Big-data Architecture
+            %Requirements Engineering,
             Software Architecture, 
             \textbf{TDD}, 
             Relational DB Design, 
-            Agile, 
-            Microservices}\\
-    \end{tabular} 
+            \textbf{Microservices}}\\
+    \end{tabular}
     
 
     \section*{Education}
     \begin{tabular}{p{5.2em}| p{0.85\textwidth}}
         \cvevent{2019 - 2024}{Bonn-Rhein-Sieg University of Applied Sciences (H-BRS)}{B.Sc. Computer Science}{Bonn, Germany}{
-                \item \textbf{Computer Science} degree with a final grade of 1.6 GPA (German) (\textbf{$\equiv$ 92\% Israeli}) within the \textbf{best 10 \%} of graduates.
-                \item Specialized in \textbf{Bioinformatics and Data Science} where I did multiple applied projects. (E.g. \href{https://github.com/paulbrenker/decision-tsp}{see here})
-                \item For my Thesis I chose the topic: \textbf{Relevance of OpenAPI Linter Rules} for Specification Quality. (\href{https://github.com/paulbrenker/thesis}{Thesis Repo})
-                \item Deutschlandstipendium - \textbf{Scholarship for ambitious and talented students}.
+                \item \textbf{Computer Science} degree with a final grade of Final grade: 1.6 (German scale, top 10\%, equivalent to 92\% Israeli scale).
+                \item Specialized in \textbf{Bioinformatics and Data Science} where I did multiple applied projects. (e.g. \href{https://github.com/paulbrenker/decision-tsp}{see here})
+                \item Thesis Topic: \textbf{Relevance of OpenAPI Linter Rules} for Specification Quality. (\href{https://github.com/paulbrenker/thesis}{see here})
+                \item Awarded the Deutschlandstipendium, a competitive \textbf{scholarship for high-achieving students}.
             }
             {img/hbrs_logo.jpg} \\
             
         \cvevent{2015 - 2019}{Freie Universität zu Berlin}{B.A. Linguistics}{Berlin, Germany}{
                 \item Focused on \textbf{Middle Eastern languages} including \textbf{Hebrew}, Arabic, Amharic and Aramaic.
-                \item PROMOS -  Scholarship for a Hebrew summer school at the \textbf{Ben Gurion University of the Negev}.
-                \item DAAD Scholarship for \textbf{intensive Arabic language} courses at the German Jordanian University in Amman, Jordan.
-                \item Thesis was written about gender-specific variations in the Arabic dialect of Amman, Jordan. 
+                \item Awarded a PROMOS Scholarship for a Hebrew summer school at \textbf{Ben Gurion University of the Negev}.
+                \item Awarded a Scholarship for intensive Arabic language studies at the \textbf{German Jordanian University, Amman}.
+                \item Thesis Topic: was written about gender-specific variations in the Arabic dialect of Amman, Jordan. 
             }
             {img/fu_logo.png} \\
     \end{tabular}
