@@ -1,6 +1,6 @@
-# Welcome!
+# Hey there,
 
-Hey There, I am Paul a **Java / Kotlin**, **Node.js** and **Python** Software Engineer.
+I am Paul a **Python**, **Java / Kotlin** and **Node.js** Software Engineer.
 
 :earth_africa: Based in **Tel Aviv**, Israel <br>
 :globe_with_meridians: Experienced in developing **complex web applications** <br>
