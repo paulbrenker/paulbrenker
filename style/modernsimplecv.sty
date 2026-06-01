@@ -172,14 +172,13 @@
 {\color{#3}\rule[\baselineskip]{#1\textwidth}{#2}}\vspace{0.5em}
 }
 
-\newcommand{\cvevent}[5]{
+\newcommand{\cvevent}[6]{
   {#1} \newline & 
-  \textbf{#2}\newline
-  \textsc{#3} $\cdot$ {#4 ~\faMapMarker}\newline
+  \textbf{#2} $\cdot$ \textsc{#3} $\cdot$ {#4 ~\faMapMarker} $\cdot$ {#5}\newline
   {\color{black!70} 
     \vspace{-.4cm}
     \begin{itemize}[itemsep=-.2em, topsep=0.2em, left=0pt]
-      #5
+      #6
     \end{itemize}
   }
   \vspace{1.5em}
